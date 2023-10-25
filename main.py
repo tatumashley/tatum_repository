@@ -17,12 +17,8 @@ def encode(password):
 
     return encoded_list
 
-def decode():
-
-
-
-if __name__ == '__main__':
-
+def main():
+    
     while True:
         print("Menu")
         print("-" * 13)
@@ -39,5 +35,3 @@ if __name__ == '__main__':
             print(f"The encoded password is {decoded_input}, and the original password is {user_input}.")
         elif menu_option == 3:
             break
-        else:
-            continue
